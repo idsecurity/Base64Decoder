@@ -1,5 +1,8 @@
 package se.idsecurity.base64decoder;
-
+/*
+* Copyright chitgoks@gmail.com
+* http://tech.chitgoks.com/2013/07/19/how-to-go-to-item-in-combobox-on-keypress-in-java-fx-2/
+*/
 import com.sun.javafx.scene.control.skin.ComboBoxListViewSkin;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -10,7 +13,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
-//http://tech.chitgoks.com/2013/07/19/how-to-go-to-item-in-combobox-on-keypress-in-java-fx-2/
+
 public class SelectKeyComboBoxListener implements EventHandler<KeyEvent> {
  
     private ComboBox comboBox;
